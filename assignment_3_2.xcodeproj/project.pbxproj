@@ -14,6 +14,7 @@
 		37E8198C1BC4E26700B73445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E8198A1BC4E26700B73445 /* LaunchScreen.storyboard */; };
 		37E819971BC4E26700B73445 /* assignment_3_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E819961BC4E26700B73445 /* assignment_3_2Tests.swift */; };
 		37E819A21BC4E26700B73445 /* assignment_3_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E819A11BC4E26700B73445 /* assignment_3_2UITests.swift */; };
+		37E819B01BC4E35300B73445 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E819AF1BC4E35300B73445 /* MailboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37E8199D1BC4E26700B73445 /* assignment_3_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment_3_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E819A11BC4E26700B73445 /* assignment_3_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_3_2UITests.swift; sourceTree = "<group>"; };
 		37E819A31BC4E26700B73445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E819AF1BC4E35300B73445 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				37E819811BC4E26700B73445 /* AppDelegate.swift */,
 				37E819831BC4E26700B73445 /* ViewController.swift */,
 				37E819851BC4E26700B73445 /* Main.storyboard */,
+				37E819AF1BC4E35300B73445 /* MailboxViewController.swift */,
 				37E819881BC4E26700B73445 /* Assets.xcassets */,
 				37E8198A1BC4E26700B73445 /* LaunchScreen.storyboard */,
 				37E8198D1BC4E26700B73445 /* Info.plist */,
@@ -257,6 +260,7 @@
 			files = (
 				37E819841BC4E26700B73445 /* ViewController.swift in Sources */,
 				37E819821BC4E26700B73445 /* AppDelegate.swift in Sources */,
+				37E819B01BC4E35300B73445 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = assignment_3_2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Marlon.assignment-3-2";
@@ -409,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = assignment_3_2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Marlon.assignment-3-2";
